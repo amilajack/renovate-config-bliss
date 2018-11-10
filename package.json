@@ -1,0 +1,21 @@
+{
+  "name": "renovate-config-bliss",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amilajack/renovate-config-bliss.git",
+  "author": "Amila Welihinda <amilajack@gmail.com>",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      },
+      "rangeStrategy": "bump",
+      "schedule": "on saturday"
+    }
+  }
+}
