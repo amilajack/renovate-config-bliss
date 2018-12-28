@@ -17,5 +17,11 @@
       "rangeStrategy": "bump",
       "schedule": "on saturday"
     }
+  },
+  "devDependencies": {
+    "renovate": "^13.161.2"
+  },
+  "scripts": {
+    "test": "renovate-config-validator"
   }
 }
