@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-bliss",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "git@github.com:amilajack/renovate-config-bliss.git",
   "author": "Amila Welihinda <amilajack@gmail.com>",
