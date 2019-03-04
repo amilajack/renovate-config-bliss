@@ -15,7 +15,7 @@
         "automerge": false
       },
       "rangeStrategy": "bump",
-      "schedule": "on saturday"
+      "schedule": "before 3am on the first day of the month"
     }
   },
   "devDependencies": {
