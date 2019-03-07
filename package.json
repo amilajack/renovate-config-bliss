@@ -14,6 +14,14 @@
       "major": {
         "automerge": false
       },
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "(^|.*-)(eslint|prettier|stylelint)(-.*|$)"
+          ],
+          "groupName": "linters"
+        }
+      ],
       "rangeStrategy": "bump",
       "schedule": "before 3am on the first day of the month"
     }
