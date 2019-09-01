@@ -19,7 +19,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "^13.161.2"
+    "renovate": "^19.36.2"
   },
   "scripts": {
     "test": "renovate-config-validator"
