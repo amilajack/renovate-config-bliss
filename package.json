@@ -15,7 +15,15 @@
         "automerge": false
       },
       "rangeStrategy": "bump",
-      "schedule": "before 3am on the first day of the month"
+      "schedule": "before 3am on the first day of the month",
+      "packageRules": [
+        {
+          "depTypeList": [
+            "peerDependencies"
+          ],
+          "enabled": false
+        }
+      ]
     }
   },
   "devDependencies": {
